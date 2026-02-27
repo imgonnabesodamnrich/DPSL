@@ -35,6 +35,11 @@
 
 因此，为了提高诊断精度，需要同时实现“消除噪声干扰”与“抑制类内离散”。
 
+<div align="center">
+  <img width="90%" src="https://github.com/user-attachments/assets/d1ed046d-9ff9-49b8-bdc7-e893a54e22e1" />
+  <p><em>图1 样本分布示意图 </em></p>
+</div>
+
 ### 3. 方法论：深度渐进收缩学习 (DPSL)
 
 针对上述问题，论文构建了 DPSL 框架，通过特征级和决策级两个层面的收缩策略来优化特征分布。
